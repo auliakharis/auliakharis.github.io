@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aulia Kharis Rakhmasari — Data Scientist &amp; LLM Evaluation Researcher</title>
+<meta name="description" content="MSc Data Science at ETH Zürich. LLM evaluation and alignment for finance and regulation; two years of production ML in banking.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23ffb5a7'/%3E%3Ctext x='16' y='21' text-anchor='middle' font-family='sans-serif' font-weight='800' font-size='13' fill='%233b2522'%3EAK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
+body{margin:0;background:#f8edeb}
+a{color:#9c3f31}a:hover{color:#6e2a20}
+a:focus-visible{outline:3px solid #3b2522;outline-offset:3px;border-radius:999px}
+section,footer{scroll-margin-top:16px}
+img,svg{max-width:100%}
+</style>
+</head>
+<body>
+<div style="background: #f8edeb; color: #3b2522; font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 17px; line-height: 1.6">
+
+<!-- NAV -->
+<header style="max-width: 1180px; margin: 0 auto; padding: 28px 32px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between">
+<a href="#top" style="text-decoration: none; color: #3b2522; font-weight: 800; font-size: 20px; letter-spacing: -0.02em; display: flex; align-items: center; gap: 10px">
+<span style="width: 36px; height: 36px; border-radius: 50%; background: #ffb5a7; display: inline-flex; align-items: center; justify-content: center; font-size: 14px; color: #3b2522">AK</span>
+Aulia Kharis
+</a>
+<nav aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 6px">
+<a href="#research" style="text-decoration: none; color: #3b2522; font-weight: 600; font-size: 15px; padding: 10px 14px; border-radius: 999px">Research</a>
+<a href="#projects" style="text-decoration: none; color: #3b2522; font-weight: 600; font-size: 15px; padding: 10px 14px; border-radius: 999px">Projects</a>
+<a href="#experience" style="text-decoration: none; color: #3b2522; font-weight: 600; font-size: 15px; padding: 10px 14px; border-radius: 999px">Experience</a>
+<a href="#publications" style="text-decoration: none; color: #3b2522; font-weight: 600; font-size: 15px; padding: 10px 14px; border-radius: 999px">Publications</a>
+<a href="#contact" style="text-decoration: none; color: #3b2522; font-weight: 700; font-size: 15px; padding: 10px 18px; border-radius: 999px; background: #3b2522; color: #f8edeb">Contact</a>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="top" style="max-width: 1180px; margin: 0 auto; padding: 56px 32px 96px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 24px">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #6e4a43; letter-spacing: 0.04em">MSc Data Science · ETH Zürich</p>
+<h1 style="margin: 0; font-size: clamp(2.6rem, 5vw, 4.4rem); line-height: 1.05; letter-spacing: -0.035em; font-weight: 800">Making LLMs trustworthy where the rules are strict.</h1>
+<p style="margin: 0; font-size: 19px; color: #5a3b35; max-width: 560px">I'm Aulia — I research LLM evaluation and alignment for finance and regulation: LLM-as-a-Judge methodology, preference optimisation, and benchmark design. Before ETH, I spent two years shipping production ML in banking.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; padding-top: 8px">
+<a href="#projects" style="text-decoration: none; background: #3b2522; color: #f8edeb; font-weight: 700; padding: 14px 24px; border-radius: 999px; font-size: 16px">See my work</a>
+<a href="CV.pdf" style="text-decoration: none; background: #fec89a; color: #3b2522; font-weight: 700; padding: 14px 24px; border-radius: 999px; font-size: 16px">Download CV</a>
+</div>
+</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; justify-content: center">
+<div style="position: relative; width: 420px; max-width: 100%; height: 470px">
+<div style="position: absolute; left: 40px; top: 10px; width: 340px; height: 340px; border-radius: 50%; background: #ffb5a7"></div>
+<div style="position: absolute; right: 0; bottom: 30px; width: 170px; height: 170px; border-radius: 50%; background: #fec89a"></div>
+<div style="position: absolute; left: 0; bottom: 10px; width: 120px; height: 120px; border-radius: 28px; background: #f9dcc4; transform: rotate(-10deg)"></div>
+<div style="position: absolute; left: 75px; top: 46px; width: 270px; height: 340px; border-radius: 135px 135px 28px 28px; border: 8px solid #fffaf9; box-sizing: border-box; background: #fcd5ce; overflow: hidden">
+<svg aria-hidden="true" viewBox="0 0 254 324" style="position: absolute; inset: 0; width: 100%; height: 100%">
+<path d="M10 250 C60 250 80 245 100 200 C115 160 120 110 127 110 C134 110 139 160 154 200 C174 245 194 250 244 250 Z" fill="#ffb5a7"></path>
+<path d="M10 250 C60 250 80 245 100 200 C115 160 120 110 127 110 C134 110 139 160 154 200 C174 245 194 250 244 250" fill="none" stroke="#3b2522" stroke-width="3" stroke-linecap="round"></path>
+<line x1="127" y1="96" x2="127" y2="262" stroke="#3b2522" stroke-width="2" stroke-dasharray="5 6"></line>
+<line x1="18" y1="262" x2="236" y2="262" stroke="#3b2522" stroke-width="2.5" stroke-linecap="round"></line>
+<g fill="#fec89a" stroke="#3b2522" stroke-width="1.5"><circle cx="58" cy="232" r="6"></circle><circle cx="92" cy="212" r="6"></circle><circle cx="112" cy="150" r="6"></circle><circle cx="142" cy="138" r="6"></circle><circle cx="168" cy="218" r="6"></circle><circle cx="200" cy="238" r="6"></circle></g>
+<text x="127" y="84" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="15" font-weight="500" fill="#3b2522">μ = curious</text>
+<text x="127" y="292" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#6e4a43">σ = always learning</text>
+</svg>
+</div>
+<svg aria-hidden="true" width="46" height="46" viewBox="0 0 24 24" style="position: absolute; right: 30px; top: 30px"><path d="M12 1 C13 8 16 11 23 12 C16 13 13 16 12 23 C11 16 8 13 1 12 C8 11 11 8 12 1 Z" fill="#fec89a" stroke="#3b2522" stroke-width="1.2" stroke-linejoin="round"></path></svg>
+<svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" style="position: absolute; left: 22px; top: 120px"><path d="M12 1 C13 8 16 11 23 12 C16 13 13 16 12 23 C11 16 8 13 1 12 C8 11 11 8 12 1 Z" fill="#ffb5a7" stroke="#3b2522" stroke-width="1.4" stroke-linejoin="round"></path></svg>
+<span style="position: absolute; left: 6px; top: 40px; background: #3b2522; color: #f8edeb; font-weight: 700; font-size: 15px; padding: 8px 16px; border-radius: 999px; transform: rotate(-8deg)">Halo, I'm Aulia!</span>
+<span style="position: absolute; right: 8px; bottom: 70px; background: #fffaf9; color: #3b2522; font-weight: 700; font-size: 14px; padding: 8px 14px; border-radius: 999px; transform: rotate(6deg); display: flex; align-items: center; gap: 6px"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9c3f31" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>Zürich</span>
+<span style="position: absolute; left: 70px; bottom: 30px; background: #fcd5ce; color: #3b2522; font-family: 'JetBrains Mono', monospace; font-weight: 500; font-size: 13px; padding: 7px 14px; border-radius: 999px; transform: rotate(-4deg)">stats nerd · LLM evals</span>
+</div>
+</div>
+</section>
+
+<!-- QUICK FACTS -->
+<section aria-label="Highlights" style="background: #fcd5ce">
+<div style="max-width: 1180px; margin: 0 auto; padding: 40px 32px; display: flex; flex-wrap: wrap; gap: 32px">
+<div style="flex: 1 1 200px">
+<p style="margin: 0; font-size: 34px; font-weight: 800; letter-spacing: -0.02em">3</p>
+<p style="margin: 0; color: #5a3b35; font-size: 15px">arXiv papers in LLM evaluation &amp; reasoning</p>
+</div>
+<div style="flex: 1 1 200px">
+<p style="margin: 0; font-size: 34px; font-weight: 800; letter-spacing: -0.02em">CHF 1.7M+</p>
+<p style="margin: 0; color: #5a3b35; font-size: 15px">incremental transaction volume from my propensity models</p>
+</div>
+<div style="flex: 1 1 200px">
+<p style="margin: 0; font-size: 34px; font-weight: 800; letter-spacing: -0.02em">3.97 / 4.00</p>
+<p style="margin: 0; color: #5a3b35; font-size: 15px">BSc Statistics, best graduate of 1,000+</p>
+</div>
+<div style="flex: 1 1 200px">
+<p style="margin: 0; font-size: 34px; font-weight: 800; letter-spacing: -0.02em">1st place</p>
+<p style="margin: 0; color: #5a3b35; font-size: 15px">TrackAML Hackathon, PPATK</p>
+</div>
+</div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" style="max-width: 1180px; margin: 0 auto; padding: 96px 32px 48px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 680px">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #9c3f31; letter-spacing: 0.04em">01 — RESEARCH</p>
+<h2 style="margin: 0; font-size: 40px; letter-spacing: -0.03em; line-height: 1.1">What I'm working on</h2>
+<p style="margin: 0; color: #5a3b35">Evaluation and alignment for high-stakes domains, built and run on ETH's Euler HPC cluster.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 24px">
+
+<article style="flex: 1 1 480px; min-width: 0; background: #fffaf9; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="background: #ffb5a7; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Alignment</span>
+<span style="background: #f9dcc4; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">LLM-as-a-Judge</span>
+</div>
+<h3 style="margin: 0; font-size: 23px; letter-spacing: -0.02em; line-height: 1.25">FinRegQA-EU</h3>
+<p style="margin: 0; font-size: 14px; color: #6e4a43">Law, Economics &amp; Data Science Group · Prof. Elliott Ash · 2026</p>
+<div style="margin: 0; color: #4a302b"><span style="text-align: justify">DPO fine-tuning of Qwen3.5-4B on EBA/ESMA regulatory Q&amp;A with five preference-corruption strategies. &nbsp;Standard LLM-as-a-Judge evaluation rewards citation density as evidence of grounding and cannot detect when those citations are fabricated. Thus, we detect a blind spot that matters wherever answers must be verifiable.</span><div><br></div></div>
+<a href="https://arxiv.org/abs/2609.36856" style="font-weight: 700; font-size: 15px; margin-top: auto">Read the paper →</a>
+</article>
+
+<article style="flex: 1 1 480px; min-width: 0; background: #fffaf9; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="background: #fec89a; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Benchmark</span>
+<span style="background: #f9dcc4; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Robustness</span>
+</div>
+<h3 style="margin: 0; font-size: 23px; letter-spacing: -0.02em; line-height: 1.25">V-FiLLM — Verifiable Financial Reasoning</h3>
+<p style="margin: 0; font-size: 14px; color: #6e4a43">ETH AI Center × Apertus · Dr. Nino Antulov-Fantulin · 2026</p>
+<p style="margin: 0; color: #4a302b">A deterministic computation-tree benchmark with verifiable ground truth. Benchmarked eight models including Apertus-70B and Llama-3.3-70B, and stress-tested them against missing values, OCR lookalikes, prompt injection and cross-table contamination.</p>
+<a href="https://arxiv.org/abs/2608.11047" style="font-weight: 700; font-size: 15px; margin-top: auto">Read the paper →</a>
+</article>
+
+<article style="flex: 1 1 480px; min-width: 0; background: #fffaf9; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="background: #fcd5ce; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Fairness</span>
+<span style="background: #f9dcc4; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">DPO</span>
+</div>
+<h3 style="margin: 0; font-size: 23px; letter-spacing: -0.02em; line-height: 1.25">Gated Graph-of-Gradients DPO</h3>
+<p style="margin: 0; font-size: 14px; color: #6e4a43">ETH AI Center · 2026</p>
+<p style="margin: 0; color: #4a302b">On PRISM, demographic groups don't explain DPO loss disparities — gradient-space groups do. We built a graph-of-gradients reweighting method on that finding.</p>
+</article>
+
+<article style="flex: 1 1 480px; min-width: 0; background: #fffaf9; border-radius: 24px; padding: 32px; display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+<span style="background: #ffb5a7; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">VLMs</span>
+<span style="background: #fec89a; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Evaluation</span>
+</div>
+<h3 style="margin: 0; font-size: 23px; letter-spacing: -0.02em; line-height: 1.25">Relational Reasoning in VLMs</h3>
+<p style="margin: 0; font-size: 14px; color: #6e4a43">ETH Zürich · Sep 2025 – Jan 2026</p>
+<p style="margin: 0; color: #4a302b">Evaluated state-of-the-art vision-language models on spatial, semantic and compositional relations; mapped failure modes and proposed targeted benchmarks.</p>
+<a href="https://arxiv.org/abs/2608.23518" style="font-weight: 700; font-size: 15px; margin-top: auto">Read the paper →</a>
+</article>
+
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" style="max-width: 1180px; margin: 0 auto; padding: 48px 32px 96px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-wrap: wrap; gap: 16px; align-items: flex-end; justify-content: space-between">
+<div style="display: flex; flex-direction: column; gap: 12px; max-width: 680px">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #9c3f31; letter-spacing: 0.04em">02 — PROJECTS</p>
+<h2 style="margin: 0; font-size: 40px; letter-spacing: -0.03em; line-height: 1.1">Things I've built</h2>
+</div>
+<a href="https://github.com/auliakharis" style="font-weight: 700; font-size: 15px">More on GitHub →</a>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding-top: 16px"><h3 style="margin: 0; font-size: 24px; letter-spacing: -0.02em">Bank Syariah Indonesia · 2023–2025</h3><p style="margin: 0; color: #5a3b35; font-size: 15px">Models and analytics that steered card, payroll and regional programmes. Screens withheld because the data is confidential.</p></div>
+<div style="display: flex; flex-wrap: wrap; gap: 24px">
+<article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #ffb5a7; position: relative; overflow: hidden">
+<svg aria-hidden="true" viewBox="0 0 320 150" style="position: absolute; inset: 0; width: 100%; height: 100%"><g stroke="#fcd5ce" stroke-width="4" stroke-linecap="round"><line x1="110" y1="40" x2="70" y2="85"></line><line x1="110" y1="40" x2="150" y2="85"></line><line x1="70" y1="85" x2="45" y2="128"></line><line x1="70" y1="85" x2="95" y2="128"></line><line x1="150" y1="85" x2="130" y2="128"></line><line x1="150" y1="85" x2="175" y2="128"></line></g><g fill="#fffaf9" stroke="#fcd5ce" stroke-width="4"><circle cx="110" cy="40" r="11"></circle><circle cx="70" cy="85" r="9"></circle><circle cx="150" cy="85" r="9"></circle><circle cx="45" cy="128" r="7"></circle><circle cx="95" cy="128" r="7"></circle><circle cx="130" cy="128" r="7"></circle><circle cx="175" cy="128" r="7"></circle></g></svg>
+<span style="position: absolute; top: 14px; right: 14px; background: #fffaf9; color: #3b2522; border-radius: 999px; padding: 5px 12px; display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12px"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#3b2522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Confidential</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #ffb5a7; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">ML model</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">Best Product Offer — Payroll Segment</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">Gives every payroll customer three product recommendations matched to their profile, refreshed and delivered automatically each month.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">XGBoost · Python · SQL · Power BI · CDSW</p>
+</div>
+</article><article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #fec89a; position: relative; overflow: hidden">
+<svg aria-hidden="true" viewBox="0 0 320 150" style="position: absolute; inset: 0; width: 100%; height: 100%"><g fill="#ffb5a7"><circle cx="60" cy="60" r="8"></circle><circle cx="82" cy="78" r="8"></circle><circle cx="52" cy="92" r="8"></circle><circle cx="78" cy="48" r="8"></circle><circle cx="160" cy="104" r="8"></circle><circle cx="182" cy="88" r="8"></circle><circle cx="170" cy="124" r="8"></circle><circle cx="196" cy="114" r="8"></circle></g><g fill="#fffaf9"><circle cx="250" cy="52" r="8"></circle><circle cx="272" cy="70" r="8"></circle><circle cx="244" cy="80" r="8"></circle><circle cx="266" cy="42" r="8"></circle></g></svg>
+<span style="position: absolute; top: 14px; right: 14px; background: #fffaf9; color: #3b2522; border-radius: 999px; padding: 5px 12px; display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12px"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#3b2522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Confidential</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #ffb5a7; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">ML model</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">Credit Card Portfolio Segmentation</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">Split the card portfolio into spending-behaviour personas so the card team could tailor campaigns to each one.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">XGBoost · Python · SQL · Power BI · CDSW</p>
+</div>
+</article><article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #f9dcc4; position: relative; overflow: hidden">
+<svg aria-hidden="true" viewBox="0 0 320 150" style="position: absolute; inset: 0; width: 100%; height: 100%"><g stroke="#ffb5a7" stroke-width="4" stroke-linecap="round"><line x1="110" y1="40" x2="70" y2="85"></line><line x1="110" y1="40" x2="150" y2="85"></line><line x1="70" y1="85" x2="45" y2="128"></line><line x1="70" y1="85" x2="95" y2="128"></line><line x1="150" y1="85" x2="130" y2="128"></line><line x1="150" y1="85" x2="175" y2="128"></line></g><g fill="#fffaf9" stroke="#ffb5a7" stroke-width="4"><circle cx="110" cy="40" r="11"></circle><circle cx="70" cy="85" r="9"></circle><circle cx="150" cy="85" r="9"></circle><circle cx="45" cy="128" r="7"></circle><circle cx="95" cy="128" r="7"></circle><circle cx="130" cy="128" r="7"></circle><circle cx="175" cy="128" r="7"></circle></g></svg>
+<span style="position: absolute; top: 14px; right: 14px; background: #fffaf9; color: #3b2522; border-radius: 999px; padding: 5px 12px; display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12px"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#3b2522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Confidential</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #ffb5a7; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">ML model</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">First Transaction Propensity Model</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">Predicts which newly activated cardholders will still be transacting after 90 days, so the team can reach the rest early.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">XGBoost · Python · SQL</p>
+</div>
+</article><article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #fcd5ce; position: relative; overflow: hidden">
+<svg aria-hidden="true" viewBox="0 0 320 150" preserveAspectRatio="none" style="position: absolute; inset: 0; width: 100%; height: 100%"><polyline points="0,118 40,104 80,110 120,86 160,92 200,40 240,58 280,74 320,62" fill="none" stroke="#ffb5a7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></polyline><polyline points="200,40 240,52 280,66 320,56" fill="none" stroke="#fffaf9" stroke-width="3" stroke-dasharray="6 7" stroke-linecap="round"></polyline></svg>
+<span style="position: absolute; top: 14px; right: 14px; background: #fffaf9; color: #3b2522; border-radius: 999px; padding: 5px 12px; display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12px"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#3b2522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Confidential</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #fec89a; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Forecasting</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">Holiday &amp; Eid Transaction Forecasting</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">Forecasts transaction traffic through Eid and holiday peaks so branches and ATMs are ready, under 5% MAPE.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">Python · SQL · Power BI · CDSW</p>
+</div>
+</article><article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #ffb5a7; position: relative; overflow: hidden">
+<div aria-hidden="true" style="position: absolute; left: 24px; right: 24px; bottom: 0; height: 96px; display: flex; align-items: flex-end; gap: 8px"><div style="flex: 1; height: 45%; background: #fcd5ce; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 80%; background: #fcd5ce; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 60%; background: #fcd5ce; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 95%; background: #fcd5ce; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 70%; background: #fcd5ce; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 50%; background: #fcd5ce; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 85%; background: #fcd5ce; border-radius: 6px 6px 0 0"></div></div>
+<span style="position: absolute; top: 14px; right: 14px; background: #fffaf9; color: #3b2522; border-radius: 999px; padding: 5px 12px; display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12px"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#3b2522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Confidential</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #f9dcc4; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Analytics</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">QRIS vs Debit Transaction Analytics</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">Compared QRIS and debit card usage to help the card banking team decide which programmes to run.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">SQL · Power BI · Descriptive analysis</p>
+</div>
+</article><article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #fec89a; position: relative; overflow: hidden">
+<div aria-hidden="true" style="position: absolute; left: 24px; right: 24px; bottom: 0; height: 96px; display: flex; align-items: flex-end; gap: 8px"><div style="flex: 1; height: 45%; background: #f9dcc4; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 80%; background: #f9dcc4; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 60%; background: #f9dcc4; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 95%; background: #f9dcc4; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 70%; background: #f9dcc4; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 50%; background: #f9dcc4; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 85%; background: #f9dcc4; border-radius: 6px 6px 0 0"></div></div>
+<span style="position: absolute; top: 14px; right: 14px; background: #fffaf9; color: #3b2522; border-radius: 999px; padding: 5px 12px; display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12px"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#3b2522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Confidential</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #f9dcc4; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Analytics</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">Product Holding Ratio (PHR) Analytics</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">Tracked how many products each customer holds, by region, so regional teams knew which products to push.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">SQL · Descriptive analysis</p>
+</div>
+</article><article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #f9dcc4; position: relative; overflow: hidden">
+<svg aria-hidden="true" viewBox="0 0 320 150" style="position: absolute; inset: 0; width: 100%; height: 100%"><circle cx="110" cy="80" r="46" fill="none" stroke="#ffb5a7" stroke-width="6" stroke-dasharray="58 14"></circle><g fill="#fffaf9" stroke="#ffb5a7" stroke-width="4"><circle cx="110" cy="34" r="9"></circle><circle cx="156" cy="80" r="9"></circle><circle cx="110" cy="126" r="9"></circle><circle cx="64" cy="80" r="9"></circle></g></svg>
+<span style="position: absolute; top: 14px; right: 14px; background: #fffaf9; color: #3b2522; border-radius: 999px; padding: 5px 12px; display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12px"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#3b2522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Confidential</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #f9dcc4; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Analytics</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">Hasanah Card Customer Lifecycle</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">Mapped every cardholder to a lifecycle stage so the credit card team could pick the right segment for each campaign.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">SQL · Power BI</p>
+</div>
+</article><article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #fcd5ce; position: relative; overflow: hidden">
+<div aria-hidden="true" style="position: absolute; left: 24px; right: 24px; bottom: 0; height: 96px; display: flex; align-items: flex-end; gap: 8px"><div style="flex: 1; height: 45%; background: #fec89a; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 80%; background: #fec89a; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 60%; background: #fec89a; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 95%; background: #fec89a; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 70%; background: #fec89a; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 50%; background: #fec89a; border-radius: 6px 6px 0 0"></div><div style="flex: 1; height: 85%; background: #fec89a; border-radius: 6px 6px 0 0"></div></div>
+<span style="position: absolute; top: 14px; right: 14px; background: #fffaf9; color: #3b2522; border-radius: 999px; padding: 5px 12px; display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12px"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#3b2522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Confidential</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #f9dcc4; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Analytics</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">Merchant Spending Dashboard</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">Shows where cardholders spend: top merchant categories by amount and frequency, spend per customer, top merchants and monthly trends.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">Power BI · SQL</p>
+</div>
+</article><article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #fec89a; position: relative; overflow: hidden">
+<svg aria-hidden="true" viewBox="0 0 320 150" style="position: absolute; inset: 0; width: 100%; height: 100%"><g fill="#fcd5ce"><circle cx="60" cy="60" r="8"></circle><circle cx="82" cy="78" r="8"></circle><circle cx="52" cy="92" r="8"></circle><circle cx="78" cy="48" r="8"></circle><circle cx="160" cy="104" r="8"></circle><circle cx="182" cy="88" r="8"></circle><circle cx="170" cy="124" r="8"></circle><circle cx="196" cy="114" r="8"></circle></g><g fill="#fffaf9"><circle cx="250" cy="52" r="8"></circle><circle cx="272" cy="70" r="8"></circle><circle cx="244" cy="80" r="8"></circle><circle cx="266" cy="42" r="8"></circle></g></svg>
+<span style="position: absolute; top: 14px; right: 14px; background: #fffaf9; color: #3b2522; border-radius: 999px; padding: 5px 12px; display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12px"><svg aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#3b2522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Confidential</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #f9dcc4; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Analytics</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">New-to-Bank Customer Profiling</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">Profiles customers in their first 90 days by payroll status, product holdings, income and balance tiers, sector and age, to find the best fit for card cross-selling.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">Power BI · SQL · Segmentation</p>
+</div>
+</article>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding-top: 16px"><h3 style="margin: 0; font-size: 24px; letter-spacing: -0.02em">Hackathons &amp; side projects</h3><p style="margin: 0; color: #5a3b35; font-size: 15px">Competitions, bootcamps and freelance builds.</p></div>
+<div style="display: flex; flex-wrap: wrap; gap: 24px">
+<article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #fec89a; position: relative; overflow: hidden">
+<svg aria-hidden="true" viewBox="0 0 320 150" style="position: absolute; inset: 0; width: 100%; height: 100%"><line x1="70" y1="50" x2="120" y2="90" stroke="#ffb5a7" stroke-width="4"></line><line x1="120" y1="90" x2="60" y2="115" stroke="#ffb5a7" stroke-width="4"></line><line x1="120" y1="90" x2="170" y2="45" stroke="#ffb5a7" stroke-width="4"></line><line x1="170" y1="45" x2="210" y2="100" stroke="#ffb5a7" stroke-width="4"></line><line x1="210" y1="100" x2="260" y2="60" stroke="#ffb5a7" stroke-width="4"></line><line x1="120" y1="90" x2="150" y2="130" stroke="#ffb5a7" stroke-width="4"></line><line x1="210" y1="100" x2="150" y2="130" stroke="#ffb5a7" stroke-width="4"></line><line x1="170" y1="45" x2="260" y2="60" stroke="#ffb5a7" stroke-width="4"></line><circle cx="70" cy="50" r="8" fill="#fffaf9" stroke="#ffb5a7" stroke-width="4"></circle><circle cx="120" cy="90" r="8" fill="#fffaf9" stroke="#ffb5a7" stroke-width="4"></circle><circle cx="60" cy="115" r="8" fill="#fffaf9" stroke="#ffb5a7" stroke-width="4"></circle><circle cx="170" cy="45" r="8" fill="#fffaf9" stroke="#ffb5a7" stroke-width="4"></circle><circle cx="210" cy="100" r="11" fill="#3b2522" stroke="#ffb5a7" stroke-width="4"></circle><circle cx="260" cy="60" r="8" fill="#fffaf9" stroke="#ffb5a7" stroke-width="4"></circle><circle cx="150" cy="130" r="8" fill="#fffaf9" stroke="#ffb5a7" stroke-width="4"></circle></svg>
+<span style="position: absolute; top: 14px; right: 14px; background: #3b2522; color: #f8edeb; border-radius: 999px; padding: 5px 12px; font-weight: 700; font-size: 12px">1st place</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #fec89a; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Fraud detection</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">TrackAML Hackathon — PPATK</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">Combined Landsat land-change classification, social network analysis and fraud detection to trace money-laundering signals. Won 1st place.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">Python · Landsat · Network analysis</p>
+</div>
+</article><article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #ffb5a7; position: relative; overflow: hidden">
+<svg aria-hidden="true" viewBox="0 0 320 150" style="position: absolute; inset: 0; width: 100%; height: 100%"><g fill="none" stroke-width="5" stroke-linecap="round"><rect x="100" y="22" width="120" height="110" rx="20" stroke="#fffaf9" stroke-dasharray="22 70"></rect><circle cx="160" cy="77" r="38" stroke="#3b2522"></circle><path d="M142 90 Q160 104 178 90" stroke="#3b2522"></path></g><g fill="#3b2522"><circle cx="146" cy="68" r="5"></circle><circle cx="174" cy="68" r="5"></circle></g></svg>
+<span style="position: absolute; top: 14px; right: 14px; background: #3b2522; color: #f8edeb; border-radius: 999px; padding: 5px 12px; font-weight: 700; font-size: 12px">Bangkit 2023</span>
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #ffb5a7; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Computer vision</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">Mood Detection from Facial Expressions</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">An image classification app that reads mood from a face photo. Capstone for Bangkit Academy (Google, GoTo, Traveloka), graduated with distinction.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">TensorFlow · Python</p>
+</div>
+</article><article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 24px; overflow: hidden; display: flex; flex-direction: column">
+<div style="height: 150px; background: #f9dcc4; position: relative; overflow: hidden">
+<svg aria-hidden="true" viewBox="0 0 320 150" style="position: absolute; inset: 0; width: 100%; height: 100%"><line x1="160" y1="16" x2="160" y2="136" stroke="#fffaf9" stroke-width="3" stroke-dasharray="5 6"></line><line x1="120" y1="30" x2="180" y2="30" stroke="#9c3f31" stroke-width="4" stroke-linecap="round"></line><rect x="144" y="24" width="12" height="12" fill="#9c3f31"></rect><line x1="90" y1="52" x2="200" y2="52" stroke="#9c3f31" stroke-width="4" stroke-linecap="round"></line><rect x="139" y="46" width="12" height="12" fill="#9c3f31"></rect><line x1="140" y1="74" x2="170" y2="74" stroke="#9c3f31" stroke-width="4" stroke-linecap="round"></line><rect x="149" y="68" width="12" height="12" fill="#9c3f31"></rect><line x1="100" y1="96" x2="220" y2="96" stroke="#9c3f31" stroke-width="4" stroke-linecap="round"></line><rect x="154" y="90" width="12" height="12" fill="#9c3f31"></rect><line x1="130" y1="118" x2="190" y2="118" stroke="#9c3f31" stroke-width="4" stroke-linecap="round"></line><rect x="154" y="112" width="12" height="12" fill="#9c3f31"></rect><polygon points="140,138 160,128 180,138 160,148" fill="#fffaf9"></polygon></svg>
+
+</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 10px; flex-grow: 1">
+<span style="align-self: flex-start; background: #f9dcc4; padding: 4px 12px; border-radius: 999px; font-size: 13px; font-weight: 600">Web app</span>
+<h3 style="margin: 0; font-size: 20px; letter-spacing: -0.02em; line-height: 1.3">Interactive Meta-Analysis App</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">An R Shiny app for running and visualising clinical meta-analyses in real time, built for Siena Clinical.</p>
+<p style="margin: 0; margin-top: auto; padding-top: 6px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">R · Shiny</p>
+</div>
+</article>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px; padding-top: 16px"><h3 style="margin: 0; font-size: 24px; letter-spacing: -0.02em">Earlier reporting dashboards</h3><p style="margin: 0; color: #5a3b35; font-size: 15px">Internships at XL Axiata and AIG Indonesia.</p></div>
+<div style="display: flex; flex-wrap: wrap; gap: 24px">
+<article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: center">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">XL Axiata · 2022</span>
+<span style="background: #fcd5ce; color: #3b2522; border-radius: 999px; padding: 4px 10px; display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12px"><svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#3b2522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Confidential</span>
+</div>
+<h3 style="margin: 0; font-size: 18px; letter-spacing: -0.01em; line-height: 1.3">Data Audit Dashboard</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">KPI monitoring for retail-outlet and field-survey audits, used to present findings to senior management.</p>
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">Power BI</p>
+</article><article style="flex: 1 1 320px; min-width: 0; background: #fffaf9; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; align-items: center">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">AIG Indonesia · 2023</span>
+<span style="background: #fcd5ce; color: #3b2522; border-radius: 999px; padding: 4px 10px; display: flex; align-items: center; gap: 6px; font-weight: 700; font-size: 12px"><svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#3b2522" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Confidential</span>
+</div>
+<h3 style="margin: 0; font-size: 18px; letter-spacing: -0.01em; line-height: 1.3">Claim Reporting Dashboards</h3>
+<p style="margin: 0; color: #4a302b; font-size: 15px">A claim report plus daily and weekly views that replaced manual reporting and supported risk checks on incoming claims.</p>
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">Power BI · Excel VBA</p>
+</article>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" style="background: #fcd5ce">
+<div style="max-width: 1180px; margin: 0 auto; padding: 96px 32px; display: flex; flex-wrap: wrap; gap: 48px">
+<div style="flex: 1 1 280px; display: flex; flex-direction: column; gap: 12px">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #8a3427; letter-spacing: 0.04em">03 — EXPERIENCE</p>
+<h2 style="margin: 0; font-size: 40px; letter-spacing: -0.03em; line-height: 1.1">From banking floors to research labs</h2>
+<p style="margin: 0; color: #4a302b">Production ML with real revenue on the line, then research on making models accountable.</p>
+</div>
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+
+<div style="background: #fffaf9; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px">
+<h3 style="margin: 0; font-size: 19px">Data Scientist · Bank Syariah Indonesia</h3>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">Sep 2023 – Sep 2025</span>
+</div>
+<p style="margin: 0; color: #4a302b; font-size: 16px">End-to-end ML pipelines for card programmes with CHF 28M+ annual spend; propensity models that drove CHF 1.7M+ in new transaction volume; a monthly Next Best Offer engine; branch traffic forecasts under 5% MAPE.</p>
+</div>
+
+<div style="background: #fffaf9; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px">
+<h3 style="margin: 0; font-size: 19px">Data Scientist (part-time) · Siena Clinical</h3>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">May 2024 – Present</span>
+</div>
+<p style="margin: 0; color: #4a302b; font-size: 16px">Interactive meta-analysis app in R Shiny; clinical analysis for classifying benign prostatic hyperplasia vs. carcinoma.</p>
+</div>
+
+<div style="background: #fffaf9; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px">
+<h3 style="margin: 0; font-size: 19px">Teaching Assistant · ETH Zürich D-ITET</h3>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">2026</span>
+</div>
+<p style="margin: 0; color: #4a302b; font-size: 16px">Python for Science and Machine Learning.</p>
+</div>
+
+<div style="background: #fffaf9; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 8px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px">
+<h3 style="margin: 0; font-size: 19px">Earlier · AIG Insurance, XL Axiata, ITS Research Assistant</h3>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">2022 – 2023</span>
+</div>
+<p style="margin: 0; color: #4a302b; font-size: 16px">Claims dashboards and VBA automation, audit KPI monitoring, and marked log-Gaussian Cox process modelling in R.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- PUBLICATIONS + EDUCATION -->
+<section id="publications" style="max-width: 1180px; margin: 0 auto; padding: 96px 32px; display: flex; flex-wrap: wrap; gap: 56px">
+<div style="flex: 1 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #9c3f31; letter-spacing: 0.04em">04 — PUBLICATIONS</p>
+<a href="https://arxiv.org/abs/2608.11047" style="text-decoration: none; color: #3b2522; display: flex; flex-direction: column; gap: 4px; padding-bottom: 20px; border-bottom: 1px solid #ecc9c1">
+<span style="font-weight: 700; font-size: 18px">V-FiLLM: Verified Financial LLM Reasoning Benchmark</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">arXiv:2608.11047</span>
+</a>
+<a href="https://arxiv.org/abs/2609.36856" style="text-decoration: none; color: #3b2522; display: flex; flex-direction: column; gap: 4px; padding-bottom: 20px; border-bottom: 1px solid #ecc9c1">
+<span style="font-weight: 700; font-size: 18px">FinRegQA-EU: Corruption-Based Preference Data for Grounded EU Financial Regulatory Question Answering</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">arXiv:2609.36856</span>
+</a>
+<a href="https://arxiv.org/abs/2608.23518" style="text-decoration: none; color: #3b2522; display: flex; flex-direction: column; gap: 4px; padding-bottom: 20px; border-bottom: 1px solid #ecc9c1">
+<span style="font-weight: 700; font-size: 18px">Investigating Relational Reasoning in VLMs</span>
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #6e4a43">arXiv:2608.23518</span>
+</a>
+<p style="margin: 0; color: #5a3b35; font-size: 15px">Reviewer, FinNLP @ EMNLP 2026</p>
+</div>
+<div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+<p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 14px; color: #9c3f31; letter-spacing: 0.04em">EDUCATION</p>
+<div style="background: #f9dcc4; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 4px">
+<span style="font-weight: 700; font-size: 18px">MSc Data Science, ETH Zürich</span>
+<span style="font-size: 15px; color: #4a302b">2025 – 2027 · LPDP scholar</span>
+</div>
+<div style="background: #f9dcc4; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 4px"><span style="font-weight: 700; font-size: 18px">BSc Statistics, ITS Surabaya</span><span style="font-size: 15px; color: rgb(74, 48, 43)">2019 – 2023 · GPA 3.97/4.00 · Best Graduate</span></div>
+<div style="background: #f9dcc4; border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 4px">
+<span style="font-weight: 700; font-size: 18px">Erasmus+ Exchange, University of Szczecin</span>
+<span style="font-size: 15px; color: #4a302b">2021 – 2022 · Economics &amp; Management</span>
+</div>
+</div>
+</section>
+
+<!-- CONTACT -->
+<footer id="contact" style="background: #3b2522; color: #f8edeb">
+<div style="max-width: 1180px; margin: 0 auto; padding: 96px 32px 48px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 16px; max-width: 720px">
+<h2 style="margin: 0; font-size: clamp(2.2rem, 4vw, 3.4rem); letter-spacing: -0.03em; line-height: 1.05">Let's talk about data, models, or anything in between.</h2>
+<p style="margin: 0; color: #f9dcc4; font-size: 18px">Open to Data Science roles, research collaborations and thesis conversations.</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 12px">
+<a href="mailto:arakhmasari@ethz.ch" style="text-decoration: none; background: #ffb5a7; color: #3b2522; font-weight: 700; padding: 14px 24px; border-radius: 999px">arakhmasari@ethz.ch</a>
+<a href="https://github.com/auliakharis" style="text-decoration: none; border: 2px solid #fcd5ce; color: #fcd5ce; font-weight: 700; padding: 12px 22px; border-radius: 999px">GitHub</a>
+<a href="https://linkedin.com/in/aulia-kharis-rakhmasari" style="text-decoration: none; border: 2px solid #fcd5ce; color: #fcd5ce; font-weight: 700; padding: 12px 22px; border-radius: 999px">LinkedIn</a>
+</div>
+<p style="margin: 0; padding-top: 32px; border-top: 1px solid #5c403a; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #e9c9c0">© 2026 Aulia Kharis Rakhmasari · Zürich</p>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
